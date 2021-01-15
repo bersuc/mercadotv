@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+// Icons
 import { BiSearch } from 'react-icons/bi'
 
 export default function Nav() {
@@ -10,8 +11,8 @@ export default function Nav() {
                 <Link to="/">
                     <div className="navbar-brand">Home</div>
                 </Link>
-                <Link to="/entrevistas">
-                    <div className="navbar-brand">Entrevistas</div>
+                <Link to="/books">
+                    <div className="navbar-brand">Livros</div>
                 </Link>
                 <Link to="/contact">
                     <div className="navbar-brand">Contato</div>

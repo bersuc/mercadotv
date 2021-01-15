@@ -1,12 +1,12 @@
 import React from 'react'
-import { FaSave } from 'react-icons/fa'
-import { FcSearch } from 'react-icons/fc'
+
+import { IoHomeOutline } from 'react-icons/io5'
 // import { Container } from './styles';
 
 function Home() {
     return (
         <div>
-            <FaSave />
+            <IoHomeOutline />
         </div>
     )
 }
